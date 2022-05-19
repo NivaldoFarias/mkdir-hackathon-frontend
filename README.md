@@ -2,20 +2,20 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/NivaldoFarias/git--store-frontend">
-    <img src="https://github.com/NivaldoFarias/git--store-frontend/blob/main/src/assets/git--store-logo.png" alt="Logo" width="140">
+  <a href="https://github.com/NivaldoFarias/mkdir-hackaton-frontend">
+    <img src="https://github.com/NivaldoFarias/mkdir-hackaton-frontend/blob/main/src/assets/mkdir-hackaton-logo.png" alt="Logo" width="160">
   </a>
 
-<h3 align="center">Git --store Project | Frontend</h3>
+<h3 align="center">mkdir hackaton | Frontend</h3>
   <h6 align="center">WIP</h6>
   <p align="center">
     Web Development Project using React and Sass
     <br />
-    <a href="https://github.com/NivaldoFarias/git--store-frontend/tree/main/src"><strong>JSX code»</strong></a>
+    <a href="https://github.com/NivaldoFarias/mkdir-hackaton-frontend/tree/main/src"><strong>JSX code»</strong></a>
     -
-    <a href="https://github.com/NivaldoFarias/git--store-frontend/blob/main/src/index.scss"><strong>SCSS code»</strong></a>
+    <a href="https://github.com/NivaldoFarias/mkdir-hackaton-frontend/blob/main/src/index.scss"><strong>SCSS code»</strong></a>
      -
-    <a href="https://github.com/NivaldoFarias/git--store-backend#readme"><strong>Back end code»</strong></a>
+    <a href="https://github.com/NivaldoFarias/mkdir-hackaton-backend#readme"><strong>Back end code»</strong></a>
 </div>
 
 <br />
