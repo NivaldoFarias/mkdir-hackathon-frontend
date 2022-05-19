@@ -43,11 +43,7 @@ In this section I included all Youtube content I used or refered to while studyi
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Slack][slack-shield]][slack-url]
 
-### Contributors
-
-<a href="https://github.com/NivaldoFarias/git--store-backend/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=NivaldoFarias/git--store-backend" />
-</a>
+<!-- ### Contributors -->
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
