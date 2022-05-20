@@ -2,8 +2,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/NivaldoFarias/mkdir-hackaton-frontend">
-    <img src="https://github.com/NivaldoFarias/mkdir-hackaton-frontend/blob/main/src/assets/mkdir-%20hackathon.png" alt="Logo" width="160">
+  <a href="https://github.com/NivaldoFarias/mkdir-hackathon-frontend">
+    <img src="https://github.com/NivaldoFarias/mkdir-hackathon-frontend/blob/main/src/assets/mkdir-%20hackathon.png" alt="Logo" width="160">
   </a>
 
 <h3 align="center">mkdir hackaton | Frontend</h3>
@@ -11,11 +11,11 @@
   <p align="center">
     Web Development Project using React and Sass
     <br />
-    <a href="https://github.com/NivaldoFarias/mkdir-hackaton-frontend/tree/main/src"><strong>JSX code»</strong></a>
+    <a href="https://github.com/NivaldoFarias/mkdir-hackathon-frontend/tree/main/src"><strong>JSX code»</strong></a>
     -
-    <a href="https://github.com/NivaldoFarias/mkdir-hackaton-frontend/blob/main/src/index.scss"><strong>SCSS code»</strong></a>
+    <a href="https://github.com/NivaldoFarias/mkdir-hackathon-frontend/blob/main/src/index.scss"><strong>SCSS code»</strong></a>
      -
-    <a href="https://github.com/NivaldoFarias/mkdir-hackaton-backend#readme"><strong>Back end code»</strong></a>
+    <a href="https://github.com/NivaldoFarias/mkdir-hackathon-backend#readme"><strong>Back end code»</strong></a>
 </div>
 
 <br />
