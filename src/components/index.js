@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import { TokenProvider } from '../context/TokenContext.js';
-import Test from '../components/Test.jsx';
+import { TokenProvider } from './../hooks/TokenContext.js';
+import Test from './../components/Test.jsx';
 
 function App() {
   return (

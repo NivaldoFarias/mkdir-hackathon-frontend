@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import TokenContext from '../context/TokenContext.js';
+import TokenContext from '../hooks/TokenContext.js';
 
 const Test = () => {
   const { token, setToken } = useContext(TokenContext);

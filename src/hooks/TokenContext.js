@@ -1,5 +1,5 @@
 import { createContext } from 'react';
-import { useLocalStorage } from '../hooks/useLocalStorage.js';
+import { useLocalStorage } from './useLocalStorage.js';
 
 const TokenContext = createContext();
 
