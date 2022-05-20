@@ -1,9 +1,9 @@
-@import './sass/resets';
-@import './sass/variables';
-@import './sass/mixins';
+@import './scss/resets';
+@import './scss/variables';
+@import './scss/mixins';
 
 main {
-  background-image: url('/assets/background.png');
+  // background-image: url("/assets/background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
