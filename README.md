@@ -43,7 +43,11 @@ In this section I included all Youtube content I used or refered to while studyi
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Slack][slack-shield]][slack-url]
 
-<!-- ### Contributors -->
+### Contributors 
+
+<a href="https://github.com/NivaldoFarias/mkdir-hackathon-frontend/graphs/contributors">
+  <img src="https://github.com/NivaldoFarias/mkdir-hackathon-frontend/blob/main/src/assets/mkdir-hackathon-contributors.png" width="210"">
+</a>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
