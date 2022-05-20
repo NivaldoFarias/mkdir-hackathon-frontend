@@ -38,7 +38,7 @@ In this section I included all Youtube content I used or refered to while studyi
 
 <!-- CONTACT -->
 
-### Contact
+### Contact 
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Slack][slack-shield]][slack-url]
