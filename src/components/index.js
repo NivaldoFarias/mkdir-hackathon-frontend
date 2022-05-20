@@ -1,20 +1,18 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import { useLocalStorage } from './../hooks/useLocalStorage';
-import TokenContext from './../hooks/TokenContext';
+import { TokenProvider } from '../context/TokenContext.js';
+import Test from '../components/Test.jsx';
 
 function App() {
-  const [token, setToken] = useLocalStorage('token', null);
-
   return (
-    <TokenContext.Provider value={{ token, setToken }}>
+    <TokenProvider>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<></>} />
+          <Route path='/' element={<Test />} />
         </Routes>
       </BrowserRouter>
-    </TokenContext.Provider>
+    </TokenProvider>
   );
 }
 
