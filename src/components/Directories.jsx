@@ -7,13 +7,17 @@ function Directories() {
 
   return (
     <div id='directories'>
-      {content.map((item, index) => (
-        <Folder
-          name={item.name}
-          content={item.content}
-          key={item.name + index}
-        />
-      ))}
+      {content.map((item, index) =>
+        item.type === 'folder' ? (
+          <Folder
+            name={item.name}
+            content={item.content}
+            key={item.name + index}
+          />
+        ) : (
+          'sda'
+        ),
+      )}
     </div>
   );
 }
