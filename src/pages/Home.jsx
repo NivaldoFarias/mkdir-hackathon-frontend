@@ -5,6 +5,8 @@ import { FaEdit, FaUserAlt } from 'react-icons/fa';
 import { ImUser } from 'react-icons/im';
 
 import logo from './../assets/logo-alt.png';
+import Directories from './../components/Directories';
+import Terminal from './../components/Terminal';
 
 function Home() {
   const { token, setToken } = useContext(TokenContext);
@@ -24,6 +26,8 @@ function Home() {
             <FaUserAlt className='user-icon'></FaUserAlt>
           </div>
         </header>
+        <Directories></Directories>
+        <Terminal></Terminal>
       </>
     );
   }
