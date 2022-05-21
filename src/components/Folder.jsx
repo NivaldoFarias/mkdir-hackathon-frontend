@@ -14,6 +14,8 @@ export default function Folder({ name, content }) {
         {isOpen ? <FcOpenedFolder /> : <FcFolder />}
         <h2>{name}</h2>
       </div>
+
+      {/* Filhos da pasta atual -> Recursividade no display de Folders filhas */}
       <div className='folder_content'>
         {isOpen &&
           content.map((item, index) =>
