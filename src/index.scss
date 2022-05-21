@@ -153,24 +153,24 @@ main {
   left: 0px;
   top: 0px;
 
-  padding: 8px 0;
+  padding: 8px 15px;
   height: fit-content;
-  width: 100%;
+  width: fit-content;
 
   color: white;
   font-size: 1em;
-  font-weight: 500;
+  font-weight: bold;
   letter-spacing: 2px;
   font-family: $code-font;
 
   border-radius: 5px;
   border: 1px solid $low-contrast;
   transition: all 0.3s ease-in-out 0s;
-  box-shadow: $low-contrast-tertiary 2px 4px 0px 0px;
+  box-shadow: $low-contrast-tertiary 4px 4px 0px 0px;
   background-color: $low-contrast;
 
   &.clicked {
-    left: 2px;
+    left: 4px;
     top: 4px;
 
     box-shadow: white 0px 0px 0px 0px;
@@ -188,6 +188,8 @@ main {
     height: 68px;
     width: 100%;
 
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
     background-color: $bar-primary;
 
     .logo {
@@ -229,6 +231,78 @@ main {
   width: 100%;
 }
 #terminal {
-  height: 100%;
-  width: 100%;
+  @include flex(column, initial, center, 0px);
+  height: 385px;
+  min-width: 100%;
+
+  color: $salmon-pink;
+
+  opacity: 0.85;
+  outline: none;
+  overflow: hidden;
+
+  pointer-events: all;
+
+  transition: all 300ms ease-in-out 0s;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: $terminal;
+
+  .command-shell {
+    @include flex(column, space-between, center, 25px);
+    padding: 10px;
+    height: 200px;
+    width: 100%;
+    overflow-y: auto;
+  }
+
+  .buttons-container {
+    display: grid;
+    justify-items: center;
+    grid-auto-columns: minmax(0, 1fr);
+    grid-template-columns: repeat(4, minmax(0, auto));
+    grid-template-rows: repeat(4, minmax(0, auto));
+    grid-gap: 15px;
+
+    padding: 0 15px;
+    height: 240px;
+    width: 100%;
+  }
+  .command-line {
+    @include flex(row, flex-start, flex-start, initial);
+    width: 100%;
+
+    font-size: 0.9em;
+    font-weight: bold;
+    font-family: $cmd-font;
+    background-color: transparent;
+
+    .Typewriter {
+      color: $contrast;
+
+      &__cursor {
+        color: $caret-cursor;
+      }
+    }
+    .console-text {
+      color: $salmon-pink;
+    }
+    .user-text {
+      color: $contrast;
+    }
+    .lesser-text {
+      color: $high-contrast;
+    }
+  }
+
+  .split-bar {
+    @include flex(initial, center, center, initial);
+    position: relative;
+    height: 26px;
+    width: 100%;
+
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: $bar-primary;
+  }
 }
