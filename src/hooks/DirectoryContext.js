@@ -7,7 +7,7 @@ export function DirectoryProvider({ children }) {
   const [content, setContent] = useState([]);
   const [path, setPath] = useState('');
 
-  const URL = 'http://localhost:5000';
+  const URL = 'https://mkdir-hackaton.herokuapp.com';
 
   useEffect(() => {
     const template = localStorage.getItem('content');
