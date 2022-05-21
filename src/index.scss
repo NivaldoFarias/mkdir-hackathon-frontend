@@ -3,10 +3,11 @@
 @import './scss/mixins';
 
 main {
-  // background-image: url("/assets/background.png");
+  height: 100vh;
+  width: 100vw;
+
+  background-image: url('/assets/background.png');
   background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 .form-group {
   @include flex(column, center, center, 30px);
@@ -26,7 +27,7 @@ main {
 
     border: none;
     cursor: pointer;
-    background-color: $primary;
+    background-color: $folder;
     border-radius: 5px;
 
     &:hover {
@@ -82,7 +83,7 @@ main {
     input:focus ~ label,
     input:valid ~ label {
       top: -10px;
-      color: $primary;
+      color: $folder;
     }
     input:-webkit-autofill,
     input:-webkit-autofill:hover,
@@ -106,7 +107,7 @@ main {
       width: 0;
 
       content: '';
-      background: $primary;
+      background: $folder;
       transition: 0.2s ease all;
     }
     .bar:before {
@@ -138,7 +139,7 @@ main {
     }
     @keyframes input-highlighter {
       from {
-        background: $primary;
+        background: $folder;
       }
       to {
         width: 0;
@@ -163,7 +164,7 @@ main {
   font-family: $code-font;
 
   border-radius: 5px;
-  border: 1px solid $low-contrast-secondary;
+  border: 1px solid $low-contrast;
   transition: all 0.3s ease-in-out 0s;
   box-shadow: $low-contrast-tertiary 2px 4px 0px 0px;
   background-color: $low-contrast;
@@ -173,5 +174,53 @@ main {
     top: 4px;
 
     box-shadow: white 0px 0px 0px 0px;
+  }
+}
+#home-page {
+  @include flex(column, flex-start, center, initial);
+  position: relative;
+
+  .header-container {
+    @include flex(row, space-between, center, 20px);
+    position: relative;
+    padding: 0 24px;
+
+    height: 68px;
+    width: 100%;
+
+    background-color: $bar-primary;
+
+    .logo {
+      @include flex(row, initial, center, 15px);
+
+      &__image {
+        width: 40px;
+      }
+      &__text {
+        @include flex(row, flex-end, center, initial);
+        padding-top: 11px;
+        width: fit-content;
+
+        font-size: 1.1em;
+        font-family: $code-font;
+        color: lightblue;
+
+        span {
+          color: $contrast;
+        }
+      }
+    }
+    .nav {
+      @include flex(row, space-between, center, initial);
+      width: 60px;
+      color: $gray;
+
+      .edit-icon {
+        font-size: 1.5em;
+      }
+      .user-icon {
+        font-size: 1.2em;
+      }
+    }
   }
 }
