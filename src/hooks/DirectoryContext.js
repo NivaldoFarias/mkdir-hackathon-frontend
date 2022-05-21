@@ -5,6 +5,7 @@ const DirectoryContext = createContext();
 
 export function DirectoryProvider({ children }) {
   const [content, setContent] = useState([]);
+
   const URL = 'http://localhost:5000';
 
   useEffect(() => {
@@ -14,6 +15,17 @@ export function DirectoryProvider({ children }) {
       axios
         .get(`${URL}/template`)
         .then(({ data }) => {
+          data.template[0].content.push({
+            type: 'folder',
+            name: 'TestChildFolder',
+            content: [
+              {
+                type: 'file',
+                name: 'testChild.txt',
+              },
+            ],
+          });
+          console.log(data.template);
           localStorage.setItem('content', JSON.stringify(data.template));
           setContent(data.template);
         })
