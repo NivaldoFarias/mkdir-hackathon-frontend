@@ -229,6 +229,16 @@ main {
 #directories {
   height: 465px;
   width: 100%;
+
+  .directory_item {
+    display: flex;
+    gap: 1rem;
+    color: white;
+  }
+
+  .folder_content {
+    margin-left: 1rem; //Se a pasta em questao esta dentro de outra, a margem eh somada com a margem do pai
+  }
 }
 #terminal {
   @include flex(column, initial, center, 0px);
