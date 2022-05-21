@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/NivaldoFarias/mkdir-hackathon-frontend">
-    <img src="https://github.com/NivaldoFarias/mkdir-hackathon-frontend/blob/main/src/assets/mkdir-%20hackathon.png" alt="Logo" width="160">
+    <img src="https://github.com/NivaldoFarias/mkdir-hackathon-frontend/blob/main/src/assets/mkdir-hackathon.png" alt="Logo" width="160">
   </a>
 
 <h3 align="center">mkdir hackathon | Frontend</h3>
