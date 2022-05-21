@@ -1,10 +1,11 @@
-import { useContext } from 'react';
+import { useContext, useEffect } from 'react';
 import DirectoryContext from '../hooks/DirectoryContext';
 import File from './File.jsx';
 import Folder from './Folder.jsx';
+import { Ls, Cd } from '../utils/commands.js';
 
 function Directories() {
-  const { content, setContent } = useContext(DirectoryContext);
+  const { content, path, setContent } = useContext(DirectoryContext);
 
   return (
     <div id='directories'>

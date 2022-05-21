@@ -5,6 +5,7 @@ const DirectoryContext = createContext();
 
 export function DirectoryProvider({ children }) {
   const [content, setContent] = useState([]);
+  const [path, setPath] = useState('');
 
   const URL = 'http://localhost:5000';
 
@@ -36,7 +37,7 @@ export function DirectoryProvider({ children }) {
   }, []);
 
   return (
-    <DirectoryContext.Provider value={{ content, setContent }}>
+    <DirectoryContext.Provider value={{ content, setContent, path, setPath }}>
       {children}
     </DirectoryContext.Provider>
   );
